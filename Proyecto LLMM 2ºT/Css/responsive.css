@@ -1,0 +1,188 @@
+/*Estilo general de las columnas para responsive*/
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    /*Para ver el posicionamiento de las columnas*/
+}
+
+/*Para móviles*/
+[class*="col-"] {
+    width: 100%;
+}
+
+/*Dispositivos pequeños*/
+
+@media only screen and (max-width:600px) {
+    .not1 {
+        margin-left: 30px;
+    }
+    .teemo {
+        width: 30%;
+    }
+    .fit {
+        height: 730px ;
+        background: url(../Recursos/fondodiv2.png) repeat rgb(247, 247, 247);
+    }
+    .espacio {
+        display: unset;
+    }
+
+    .not3 {
+        display: block;
+        align-items: center;
+    }
+    
+    
+    .articulos {
+        width: 90%;
+        height: 100%;
+        border: 1px dashed black;
+        border-radius: 15px;
+        margin-bottom: 30px;
+    }   
+    
+    .teemo {
+        z-index: 50;
+    }
+    div.gif {
+        position: absolute;
+        display: flex;
+        animation: none;
+        left: 30%;
+    }
+    .download {
+        display: block;
+        height: 210px;
+    }
+    .llevar {
+        display: flex;
+        padding: 15px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .div33 {
+        display: flex;
+    }
+    .appios {
+        position: relative;
+        left: 35%;
+        top: 15px;
+    }
+    .appandroid {
+        position: relative;
+        top: 50px;
+        left: 8px ;
+    }
+
+    
+
+
+}
+
+/*Para tablets*/
+@media only screen and (min-width:601px) and (max-width:993px) {
+
+    .not1 {
+        margin-left: 30px;
+    }
+    .teemo {
+        width: 30%;
+    }
+    .fit {
+        height: 730px ;
+        background: url(../Recursos/fondodiv2.png) repeat rgb(247, 247, 247);
+    }
+    .espacio {
+        display: unset;
+    }
+
+    .not3 {
+        display: block;
+        align-items: center;
+    }
+    
+    
+    .articulos {
+        width: 90%;
+        height: 100%;
+        border: 1px dashed black;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }   
+    
+    .teemo {
+        z-index: 50;
+    }
+    div.gif {
+        position: absolute;
+        display: flex;
+        animation: none;
+        left: 65%;
+    }
+    .download {
+        height: 110px;
+    }
+    .appios {
+        left: 8px;
+    }
+}
+
+
+/*Para escritorio*/
+@media only screen and (min-width:768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+    .not1 {
+        margin-left: 10px;
+    }
+
+
+}

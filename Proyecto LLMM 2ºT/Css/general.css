@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Source Serif Pro", serif;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+div {
+    display: block;
+}
+li,
+ul {
+    list-style: none;
+    z-index: 5;
+
+}
+section {
+    display: block;
+}
+article {
+    display: block;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+img {
+    border-style: none;
+    overflow: clip;
+}
